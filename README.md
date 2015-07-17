@@ -18,12 +18,18 @@ And have fun:
 => (cpustat/info)
 ...
 => (cpustat/start-cpustat 5 #(println %))
+...
+=> (cpustat/stop-cpustat)
 ````
 
 ## Platform Requirements
 
 * Linux
   * Please ensure you have **mpstat** installed (in the [**systat**](https://packages.debian.org/jessie/sysstat) package)
+* Mac
+  * Currently the system tool **iostat** is used to give *average* CPU usage (see below for going further...)
+* Windows
+  * Alas Windows is currently not supported :(
 
 ## Notes
 
@@ -48,7 +54,7 @@ are welcome!
   * https://technet.microsoft.com/en-us/library/cc788038.aspx
   * http://www.instantfundas.com/2012/03/how-to-record-cpu-and-memory-usage-over.html
   * http://stackoverflow.com/questions/9097067/get-cpu-usage-from-windows-command-prompt
-* Target ClojureScript
+* TODO: Target ClojureScript
   * The code should be written using *.cljc features
   * And supported on popular JavaScript server implementations (e.g. node)
 
