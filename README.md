@@ -22,6 +22,10 @@ And have fun:
 => (cpustat/stop-cpustat)
 ````
 
+## API Documentation
+
+Check out the the [API docs here](http://tmarble.github.io/clj-cpustat/doc/)
+
 ## Platform Requirements
 
 * Linux
