@@ -3,9 +3,8 @@
 A cross-platform cpu statistics gathering library.
 
 Add this dependency to your project.
-````
-[net.info9/clj-cpustat "0.2.0"]
-````
+
+[![Clojars Project](http://clojars.org/net.info9/clj-cpustat/latest-version.svg)](http://clojars.org/net.info9/clj-cpustat)
 
 Require it as:
 ````
