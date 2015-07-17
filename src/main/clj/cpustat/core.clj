@@ -20,7 +20,8 @@
             ProcessBuilder]
            [java.io
             BufferedReader
-            InputStreamReader]))
+            InputStreamReader])
+  (:gen-class)) ;; required for uberjar
 
 ;; holds a map of cpu stat information, for example
 ;; {:info
