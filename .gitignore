@@ -1,0 +1,30 @@
+# .gitignore
+
+# projects pecific
+# generated JavaScript
+/resources/public/js/compiled/[a-z]*
+/doc
+
+# figwheel (and other) logs
+*.log
+
+# Java build artifacts
+/lib
+/pom.xml*
+*jar
+*.class
+
+# Clojure build artifacts
+/classes
+/target
+/checkouts
+/.lein-*
+
+# Editor artifacts
+.nrepl-port
+*~
+
+## Other
+# silly Mac filesystem
+*.DS_Store*
+*._*
